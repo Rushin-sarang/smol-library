@@ -1,0 +1,43 @@
+body{
+    font-size: 1.1em;
+    line-height: 1.6;
+    font-weight: 200;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    width:21%;
+    padding-right: 75px;
+}
+.miniform{
+    margin-bottom: 30px;
+}
+.hori{
+    display:flex;
+}
+input[type="text"], input[type="number"], select{
+    border-radius: 2px;
+    height: 23px;
+    border: 2px solid #d1d1d1;
+    background-color: white;
+    box-shadow: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+h1{
+    font-weight: 200;
+}
+.aasuche{
+    padding-bottom: 15px;
+}
+select{
+    height: 28px;   
+    width: 100px;
+}
+th,td{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #E1E1E1;
+}

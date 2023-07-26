@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>My Book Library</h1>
+        </div>
+        <div class="aasuche">
+            small javascript project didnt focused much on css so kinda trashy interface but i understanded fucntions and their constructors better in this mini project
+        </div> 
+        <div class="miniform">
+            <form action>
+                <div class="hori">
+                    <div class="inp">
+                        <label for="name">Book</label>
+                        <input name="name" type="text" id="name">
+                    </div>
+                    <div class="inp">
+                        <label for="author">Author</label>  
+                        <input name="author" type="text" id="author">
+                    </div>
+                    <div class="inp">
+                        <label for="page">Pages</label>
+                        <input name="pages" type="number" id="page">
+                    </div>
+                    <div class="inp">
+                        <label for="status">Status</label>
+                        <select name="status" id="status">
+                            <option selected="selected" value="Read">Read</option>
+                            <option value="Not Read">Not Read</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div class="op">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Book</th>
+                        <th>Author</th>
+                        <th>Pages</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </tbody>
+                <tbody id="ds">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
